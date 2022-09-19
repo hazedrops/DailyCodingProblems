@@ -1,14 +1,15 @@
 const addUp = (arr, k) => {
   for (let i = 0; i < arr.length; i++) {
+    // if (arr[i] !== k) {
     const rest = k - arr[i]
+    console.log('rest is', rest)
 
-    for (let j = i + 1; j < arr.length; j++) {
+    for (let j = 0; j < arr.length; j++) {
+      console.log('arr[j] is:', arr[j])
       if (arr[j] === rest) return true
-      else return false
     }
   }
+  return false
 }
 
 console.log(addUp([10, 15, 3, 7], 17))
-
-// console.log(addUp([10, 15, 3, 7], 11))
