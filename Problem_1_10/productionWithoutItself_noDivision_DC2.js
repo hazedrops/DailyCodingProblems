@@ -15,4 +15,6 @@ const calProduct = (arr) => {
   return resultArr
 }
 
-console.log(calProduct([1, 2, 3, 4, 5]))
+console.log(calProduct([3, 2, 1]));
+
+// console.log(calProduct([1, 2, 3, 4, 5]));
