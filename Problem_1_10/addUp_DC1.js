@@ -9,4 +9,6 @@ const addUp = (arr, k) => {
   }
 }
 
-console.log(addUp([10, 15, 3, 7], 11))
+console.log(addUp([10, 15, 3, 7], 17))
+
+// console.log(addUp([10, 15, 3, 7], 11))
